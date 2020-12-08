@@ -1,31 +1,32 @@
 /* Monitors with screen width 1366px or above */
-
 @media only screen and (min-width: 1366px) {
+
 
 }
 
-/*  Tablets in landscape mode, older desktop monitors */
 
+/*  Tablets in landscape mode, older desktop monitors */
 @media only screen and (min-width: 1024px) and (max-width: 1365px) {
 
 
 }
 
-/*  Tablets in portrait mode, large display smartphones landscape mode */
 
+/*  Tablets in portrait mode, large display smartphones landscape mode */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+
 
 }
 
-/*  Smartphones in landscape mode */
 
+/*  Smartphones in landscape mode */
 @media only screen and (min-width: 421px) and (max-width: 767px) {
 
 
 }
 
-/*  Smartphones in portrait mode  */
 
+/*  Smartphones in portrait mode  */
 @media only screen and (max-width: 420px) {
 
 
