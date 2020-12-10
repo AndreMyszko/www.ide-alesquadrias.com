@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="icon" href="img/logo_ideal.png"  type="image/icon type">
+    <link rel="icon" href="img/favicon_ideal.ico"  type="image/icon type">
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/overrideStyle.css">
@@ -14,6 +14,10 @@
   <body>
     <!--GLOBAL STYLE-->
     <style>
+      body{
+        background-image: url(img/background.jpg);
+      }
+
       .logoIdeal{
         height: 28px;
         width: 113px;
@@ -21,16 +25,18 @@
     </style>
 
     <!--início menu navabar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="col-lg-10 col-sm-12  m-0 m-auto">
+    <div class="row m-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-4 mt-2 mb-2">
       <a class="navbar-brand" href="index.html"><img class="logoIdeal" src="img/logo_ideal.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">
+        <ul class="navbar-nav">
+          <li class="nav-item ligue">
+            <a class="nav-link" href="index.html"  style="color: rgb(0, 168, 236); font-size: 18px;">
               <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
                 <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
@@ -38,8 +44,8 @@
               Início
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
+          <li class="nav-item ligue">
+            <a class="nav-link" href="#" style="color: rgb(0, 168, 236); font-size: 18px;">
               <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-camera2" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path d="M9 5C7.343 5 5 6.343 5 8a4 4 0 0 1 4-4v1z"/>
                 <path fill-rule="evenodd" d="M14.333 3h-2.015A5.97 5.97 0 0 0 9 2a5.972 5.972 0 0 0-3.318 1H1.667C.747 3 0 3.746 0 4.667v6.666C0 12.253.746 13 1.667 13h4.015c.95.632 2.091 1 3.318 1a5.973 5.973 0 0 0 3.318-1h2.015c.92 0 1.667-.746 1.667-1.667V4.667C16 3.747 15.254 3 14.333 3zM1.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zM9 13A5 5 0 1 0 9 3a5 5 0 0 0 0 10z"/>
@@ -48,35 +54,35 @@
               Portifólio
             </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">
-              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
-              </svg>
-              Contato
-            </a>
-          </li>
         </ul>
       </div>
     </nav>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="nav-link">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light col-lg-8 mt-2 mb-2" style="float: right;">
+                <a class="nav-link ligue" style="font-size: 18px; color: rgb(0, 168, 236)">
                   <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"/>
                   </svg>
-                  (41) 9 9999-9999
+                  Fone: (41) 9 9662-0973
                 </a>
-                <a class="nav-link">
+                <a class="nav-link ligue" style="font-size: 18px; color: rgb(0, 168, 236)">
                   <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-text-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M16 8c0 3.866-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.584.296-1.925.864-4.181 1.234-.2.032-.352-.176-.273-.362.354-.836.674-1.95.77-2.966C.744 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7zM4.5 5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7zm0 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1h-4z"/>
                   </svg>
-                  (41) 9 9999-9999
+                  Whtsapp: (41) 9 9662-0973
                 </a>
+                <a class="nav-link ligue" style="font-size: 16px; color: rgb(0, 168, 236);">
+                  <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+                  </svg>
+                  <b>comercial@ide-alesquadrias.com.br</b>
+                </a>
+
         </nav>
+      </div>
         <!--fim menu navabar -->
     
         <!--inicio do banner-->
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide mb-2" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -97,7 +103,7 @@
         <!--fim do banner-->
 
         <!--inicio do footer-->
-        <div class="card">
+        <div class="card mb-2">
           <div class="row m-0">
           <div class="card-body text-center col-lg-6 col-sm-12">
             <h5 class="card-title">Special title treatment</h5>
@@ -114,6 +120,7 @@
             ©CopyRight - Ideal Esquadrias Ltda 2020
           </div>
         </div>
+      </div>
         <!-- final do footer-->
 
 

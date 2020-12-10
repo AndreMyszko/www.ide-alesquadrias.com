@@ -1,7 +1,6 @@
 /* Monitors with screen width 1366px or above */
 @media only screen and (min-width: 1366px) {
-
-
+    
 }
 
 
@@ -14,20 +13,27 @@
 
 /*  Tablets in portrait mode, large display smartphones landscape mode */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-
-
+    .ligue{
+        margin: auto;
+    }
+    
 }
 
 
 /*  Smartphones in landscape mode */
 @media only screen and (min-width: 421px) and (max-width: 767px) {
-
-
+    .ligue{
+        margin: auto;
+    }
+    
 }
 
 
 /*  Smartphones in portrait mode  */
 @media only screen and (max-width: 420px) {
-
+    .ligue{
+        margin: auto;
+    }
+    
 
 }
